@@ -9,11 +9,23 @@ Reconstructing species tree is an essential step into assessing relationships am
 ## 5.2 How to infer phylogenies of species?
 There are two major ways in inferring species tree. First and simple one is to use a concatenated dataset, which refers to concatenation. To apply this method, every gene will be added together and aligned into a supermatrix. Then, further phylogenetic inferences will be deployed onto this concatenated gene treated as a single gene complex. However, evidences implied that the concatenation is not always correctly reconstruct the phylogeny. It lacks of modeling deep coalescence
 
-## Practising species tree method using ASTRAL
+## 5.3 Practising species tree method using ASTRAL
 
+> Need a singularity container code to access to new version of ASTRAL (to Yanni)
+```bash
+#!/bin/bash
+#SBATCH -J astral
+#SBATCH -o %x.o%j
+#SBATCH -e %x.e%j
+#SBATCH -p nocona
+#SBATCH -N 1
+#SBATCH -n 32
 
+java -jar astral -i <unrooted gene tree file, .tre> -o <output species tree file, .tre>
+```
 
-
+### Action 5.3.1
+*Use ASTRAL
 
 
 
