@@ -8,6 +8,8 @@ Reconstructing species tree is an essential step into assessing relationships am
 
 ![Figure1DeepCoalescence](https://github.com/gudusanjiao/targetseqphylo/blob/main/miscellaneous/pic2.png "Fig1")
 Figure 1. Deep coalescence may cause discordance between gene tree and species tree.
+
+More information about why gene trees oftenly do not agree with species tree, you can refer to [Gergely J. Szöllősi, Eric Tannier, Vincent Daubin, Bastien Boussau, The Inference of Gene Trees with Species Trees, Systematic Biology, Volume 64, Issue 1, January 2015, Pages e42–e62](https://doi.org/10.1093/sysbio/syu048)
 ## 5.2 How to infer phylogenies of species?
 There are two major ways in inferring species tree. First and simple one is to use a concatenated dataset, which refers to concatenation. To apply this method, every gene will be added together and aligned into a supermatrix. Then, further phylogenetic inferences will be deployed onto this concatenated gene which will be treated as a single gene complex. 
 
