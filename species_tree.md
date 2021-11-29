@@ -16,7 +16,7 @@ There are two major ways in inferring species tree. First and simple one is to u
 
 However, evidences implied that the concatenation is not always correctly reconstruct the phylogeny. It lacks of modeling deep coalescence which creates disagreement with the true phylogeny. This is mainly caused by a majority of genes may not share the same history as species do. Thus, when using concatenation method, signals from discordant genes would outweighing the less coalescence ones.
 
-In order to solve the problem of deep coalescence in species tree reconstruction, several methods have been developed to either model the process of deep coalescence or taking shortcuts where deep coalescence trees still consist with real species tree. Full modeling of deep coalescence is more accurate but cannot take large datasets due to the complexity of computational time. Since genomic level sequecing is more and more prevalent nowadays (including our target sequencing strategy), shortcuts methods are becoming popular.
+In order to solve the problem of deep coalescence in species tree reconstruction, several methods have been developed to either model the process of deep coalescence or taking shortcuts where deep coalescence trees still consist with real species tree. Full modeling of deep coalescence is more accurate but cannot take large datasets due to the complexity of computational time. Since genomic level sequecing is more and more prevalent nowadays (including our target sequencing strategy), shortcuts methods are becoming popular because they are usually effective and relatively reliable.
 
 ![image](https://user-images.githubusercontent.com/16470742/143940257-bec4517c-f3df-4b03-8e38-fc6239745896.png)
 
