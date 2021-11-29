@@ -6,7 +6,7 @@ Nan Hu, 2021 Nov
 ## 5.1 Why do we need species tree?
 Reconstructing species tree is an essential step into assessing relationships among our target species. When we generated trees from our targeted genes, we may notice that each gene tree only represents its own evolutionary history which differs from expected species tree (because of gene duplication, lost, convention, historical hybridization, incomplete lineage sorting, and presence of deep coalescence). In other word, these gene trees may differ from each other and not agree with species tree which reflects the real phylogeny of associated species. In order to acquire a consensus phylogeny to study in related species, we would like to infer species tree using specific methods.
 
-![Figure1DeepCoalescence](https://github.com/gudusanjiao/targetseqphylo/blob/main/miscellaneous/pic2.png "Fig1")
+![Figure1DeepCoalescence](https://github.com/gudusanjiao/targetseqphylo/blob/main/miscellaneous/pic2.png "Fig 1 Deep Coalescence")
 
 Figure 1. Deep coalescence may cause discordance between gene tree and species tree.
 
@@ -18,7 +18,7 @@ However, evidence implied that the concatenation is not always correctly reconst
 
 In order to solve the problem of deep coalescence in species tree reconstruction, several methods have been developed to either model the process of deep coalescence or taking shortcuts where deep coalescence trees still consist with real species tree. Full modeling of deep coalescence is more accurate but cannot take large datasets due to the complexity of computational time. Since genomic level sequencing is more and more prevalent nowadays (including our target sequencing strategy), shortcuts methods are becoming popular because they are usually effective and relatively reliable.
 
-![image](https://user-images.githubusercontent.com/16470742/143940257-bec4517c-f3df-4b03-8e38-fc6239745896.png)
+![image](https://user-images.githubusercontent.com/16470742/143940257-bec4517c-f3df-4b03-8e38-fc6239745896.png "Fig 2 Species Tree Methods")
 
 Figure 2. Schematic of the concatenation and coalescent paradigms in phylogenetics. [(Liu et al.)](https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.12747)
 
