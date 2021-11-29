@@ -17,6 +17,9 @@ However, evidences implied that the concatenation is not always correctly recons
 
 In order to solve the problem of deep coalescence in species tree reconstruction, several methods have been developed to either model the process of deep coalescence or taking shortcuts where deep coalescence trees still consist with real species tree. Full modeling of deep coalescence is more accurate but cannot take large datasets due to the complexity of computational time. Since genomic level sequecing is more and more prevalent nowadays (including our target sequencing strategy), shortcuts methods are becoming popular.
 
+![image](https://user-images.githubusercontent.com/16470742/143940257-bec4517c-f3df-4b03-8e38-fc6239745896.png)
+Figure 2. Schematic of the concatenation and coalescent paradigms in phylogenetics. [Liu et al.](https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.12747)
+
 ## 5.3 Practising species tree method using ASTRAL
 In today's workshop, we will use ASTRAL, one of the shortcuts methods, to infer our species tree from our gene tree datasets. 
 
